@@ -1,0 +1,50 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    background-image: url(./img/IMAGEBACKGROUND\ -\ Copia.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    color: white;
+    padding: 70px 70px 24px 70px;
+    font-family: 'IBM Plex Sans', cursive;
+    
+}
+
+
+.BOX__AREA {
+    color: black;
+    background-color: #fff5;
+    width: 360px;
+    padding: 50px;
+}
+
+.game__logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.title{
+    position: relative;
+    grid-column: 1111/-1;
+    place-self: center;
+    font-size: 100px;
+    color: #fff5;
+}
+    .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
